@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class exe6octobreD {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int i=0;
+        int n = 0;
+        System.out.println("Rentrez un chiffre : ");
+        n = sc.nextInt();
+        //1)
+        for (i=0; i<=n; i++) {
+            System.out.println(i);
+        }
+
+
+
+        // 2)
+        for (i=0; i<=100; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+
+        //3)
+        int n1=0;
+        int n2=0;
+        int somme = 0;
+        System.out.println("Rentrez le premier nombre : ");
+        n1 = sc.nextInt();
+        System.out.println("Rentrez le deuxieme nombre : ");
+        n2 = sc.nextInt();
+        somme = n1 + n2;
+        System.out.println("La somme est : " +somme);
+
+        // 4)
+        for (i=0; i<=n; i++) {
+            if (i % 3 == 0) {
+                System.out.println(i);
+            }
+        }
+
+    }
+}
